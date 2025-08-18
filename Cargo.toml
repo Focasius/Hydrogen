@@ -1,8 +1,8 @@
 [package]
 name = "Hydrogen"
-version = "0.0.1-alpha"
+version = "0.0.2-alpha"
 edition = "2024"
-description = "Forge your nation's destiny. Make crucial decisions, wield power, and outmaneuver rivals in your relentless pursuit to dominate history's stage."
+description = "A simple strategy game."
 repository = "https://github.com/Focasius/Hydrogen"
 license = "	AGPL-3.0"
 

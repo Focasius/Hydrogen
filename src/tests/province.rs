@@ -1,7 +1,10 @@
-#[allow(unused_imports)]
-use super::super::core::province::Province;
+#![allow(unused_imports)]
+use rand::{SeedableRng, rngs::SmallRng};
+
+use crate::core::province::Province;
 #[test]
 fn test() {
-    let p = Province::new("example".to_string(), 123);
+    let mut rng = SmallRng::seed_from_u64(123_u64);
+    let p = Province::new("example".to_string(), &mut rng);
     println!("{:#?}", p);
 }
